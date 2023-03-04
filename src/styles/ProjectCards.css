@@ -1,6 +1,6 @@
 .project-heading {
   text-align: center;
-  padding: 4rem 0 2rm 0;
+  padding: 4rem 0 2rem 0;
 }
 .project-container {
   max-width: 1040px;
@@ -12,7 +12,7 @@
 }
 
 .project-card {
-  background-color: black;
+  background-color: rgba(151, 148, 148, 0.155);
   padding: 1.2rem 1rem;
 }
 
