@@ -11,7 +11,7 @@ const BgImg = () => {
         <img className="mainImg" src={MainImg} alt="background" />
       </div>
       <div className="content">
-        <p>Hey! I'm a freelancer</p>
+        <p>Hey! I'm a Full Stack</p>
         <h1>Web Developer</h1>
         <div>
           <Link to="/projects" className="btn">
