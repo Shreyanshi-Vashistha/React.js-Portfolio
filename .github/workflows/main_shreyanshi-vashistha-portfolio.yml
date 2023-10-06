@@ -29,6 +29,7 @@ jobs:
         run: |
           npm install
           npm run build --if-present
+          mv build wwwroot
           
       # - name: Create Archive
       #   run: zip -r portfolio.zip .
