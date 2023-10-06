@@ -1,13 +1,13 @@
-import proj1 from "../assets/proj1.jpg";
+import proj1 from "../assets/homeWise.png";
 import proj2 from "../assets/proj2.jpg";
 import proj3 from "../assets/proj3.jpg";
 
 const ProjectData = [
   {
     imageSrc: proj1,
-    title: "First Project",
-    desc: "Project desc",
-    link: "url",
+    title: "HomeWise",
+    desc: "A realtor website",
+    link: "https://witty-cliff-0d035a710.3.azurestaticapps.net/",
   },
   {
     imageSrc: proj2,

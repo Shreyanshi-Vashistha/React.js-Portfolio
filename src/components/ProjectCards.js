@@ -11,13 +11,13 @@ const ProjectCards = (props) => {
       <div className="details">
         <p>{props.desc}</p>
         <div className="pro-btns">
-          <NavLink to={props.link} className="btn">
+          <NavLink to={props.link} className="btn" target="_blank">
             View
           </NavLink>
-
+          {/* 
           <NavLink to="url.com" className="btn">
             Source
-          </NavLink>
+          </NavLink> */}
         </div>
       </div>
     </div>
