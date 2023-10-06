@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: node-app
-          path: .
+          path: portfolio.zip
       - name: Clean Up Archive
         run: rm my-app.zip  # Remove the archive file
         
