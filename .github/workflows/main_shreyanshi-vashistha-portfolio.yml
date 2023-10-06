@@ -67,4 +67,4 @@ jobs:
           app-name: 'shreyanshi-vashistha-portfolio'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_739509903ECC47A5BC2838D5EB714C09 }}
-          package: .
+          package: release.zip
