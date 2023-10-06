@@ -30,16 +30,16 @@ jobs:
           npm install
           npm run build --if-present
           
-      - name: Create Archive
-        run: zip -r portfolio.zip .
+      # - name: Create Archive
+      #   run: zip -r portfolio.zip .
 
-      - name: Upload artifact for deployment job
-        uses: actions/upload-artifact@v3
-        with:
-          name: node-app
-          path: portfolio.zip
-      - name: Clean Up Archive
-        run: rm portfolio.zip 
+      # - name: Upload artifact for deployment job
+      #   uses: actions/upload-artifact@v3
+      #   with:
+      #     name: node-app
+      #     path: portfolio.zip
+      # - name: Clean Up Archive
+      #   run: rm portfolio.zip 
         
   deploy:
     runs-on: ubuntu-latest
