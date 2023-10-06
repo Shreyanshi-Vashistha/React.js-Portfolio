@@ -39,7 +39,7 @@ jobs:
           name: node-app
           path: portfolio.zip
       - name: Clean Up Archive
-        run: rm my-app.zip  # Remove the archive file
+        run: rm portfolio.zip 
         
   deploy:
     runs-on: ubuntu-latest
