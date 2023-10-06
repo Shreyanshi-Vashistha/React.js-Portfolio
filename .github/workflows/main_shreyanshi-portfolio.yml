@@ -64,7 +64,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'shreyanshi-vashistha-portfolio'
+          app-name: 'shreyanshi-portfolio'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_739509903ECC47A5BC2838D5EB714C09 }}
           package: release.zip
