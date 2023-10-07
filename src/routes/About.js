@@ -9,8 +9,8 @@ const about = () => {
     <div>
       <Navbar />
       <BgImg2
-        heading="ABOUT."
-        text="Bringing your web application to life with cutting-edge expertise"
+        heading="Meet the Architect of Digital Dreams"
+        text="Driven by Passion, Defined by Innovation."
       />
       <AboutMe />
       <Footer />

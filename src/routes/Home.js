@@ -9,7 +9,7 @@ const home = () => {
     <div>
       <Navbar />
       <BgImg />
-      <Work />
+      {/* <Work /> */}
       <Footer />
     </div>
   );

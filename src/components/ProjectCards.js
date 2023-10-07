@@ -14,10 +14,6 @@ const ProjectCards = (props) => {
           <NavLink to={props.link} className="btn" target="_blank">
             View
           </NavLink>
-          {/* 
-          <NavLink to="url.com" className="btn">
-            Source
-          </NavLink> */}
         </div>
       </div>
     </div>

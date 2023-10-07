@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Footer.css";
+import Logo from "../assets/SVlogo.png";
 import {
+  FaGithub,
   FaHome,
   FaLinkedin,
   FaMailBulk,
@@ -27,26 +29,28 @@ const Footer = () => {
                 size={20}
                 style={{ color: "white", marginRight: "2rem" }}
               />
-              uccshreyanshi90@gmail.com
+              +1(519)830-7680
             </h4>
           </div>
-          <div className="phone">
+          <div className="email">
             <h4>
               <FaMailBulk
                 size={20}
                 style={{ color: "white", marginRight: "2rem" }}
               />
-              +1(519)830-7680
+              shreyanshi.vashistha97@gmail.com
             </h4>
           </div>
-        </div>
-        <div className="right">
-          <h4>About Me</h4>
-          <p>
-            This is me Shreyanshi Vashistha, full stack web developer. I enjoy
-            developing new solutions and solving design challenges.
-          </p>
           <div className="social">
+            <Link
+              to="https://github.com/Shreyanshi-Vashistha"
+              target={"_blank"}
+            >
+              <FaGithub
+                size={30}
+                style={{ color: "white", marginRight: "1rem" }}
+              />
+            </Link>
             <Link
               to="https://www.linkedin.com/in/shreyanshi-vashistha-64102112a/"
               target={"_blank"}
@@ -63,6 +67,11 @@ const Footer = () => {
               />
             </Link>
           </div>
+        </div>
+        <div className="right">
+          <Link to="/">
+            <img src={Logo} alt="" style={{ height: "100%", width: "100%" }} />
+          </Link>
         </div>
       </div>
     </div>

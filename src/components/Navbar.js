@@ -4,6 +4,7 @@ import "../styles/Navbar.css";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
+import Logo from "../assets/SVlogo.png";
 
 const Navbar = () => {
   const [hamClick, setHamClick] = useState(false);
@@ -23,8 +24,7 @@ const Navbar = () => {
   return (
     <div className={color ? "header header-bg" : "header"}>
       <Link to="/">
-        <h2>Shreyanshi Vashistha</h2>
-        <h4>Software Alchemist</h4>
+        <img src={Logo} alt="" style={{ height: "30%", width: "30%" }} />
       </Link>
       <ul className={hamClick ? "navMenu active" : "navMenu"}>
         <li>

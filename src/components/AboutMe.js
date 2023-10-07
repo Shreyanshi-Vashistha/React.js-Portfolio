@@ -11,13 +11,16 @@ const AboutMe = () => {
       <div className="left">
         <h1> Who Am I?</h1>
         <p>
-          I'm a software engineer with a diverse set of skills and expertise in
-          both front-end and back-end development. I am capable of building
-          complete web applications from start to finish, including designing
-          user interfaces, developing server-side APIs, and managing database
-          interactions. I have a solid understanding of various programming
-          languages and tools, such as HTML, CSS, JavaScript, Node.js, and
-          React.{" "}
+          I'm a Full Stack Web Developer with four years of experience. I am a
+          passionate technophile who thrives on crafting dynamic and innovative
+          web solutions. My journey in the realm of web development has equipped
+          me with a deep understanding of both front-end and back-end
+          technologies, allowing me to seamlessly bridge the gap between design
+          and functionality. With a keen eye for detail, I take pride in
+          transforming complex ideas into user-friendly web applications,
+          ensuring a delightful user experience. My passion for web development
+          is not just a profession; it's a driving force that fuels my
+          continuous growth and innovation in this ever-evolving field.
         </p>
 
         <Link to="/contact">
