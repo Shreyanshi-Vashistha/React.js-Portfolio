@@ -20,6 +20,14 @@
   flex-direction: column;
   padding: 1rem;
 }
+.location {
+  display: flex;
+  margin-bottom: 0.8rem;
+}
+
+.location p {
+  line-height: 30px;
+}
 
 .details {
   display: flex;

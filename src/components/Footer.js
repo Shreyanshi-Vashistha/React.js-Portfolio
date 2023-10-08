@@ -16,11 +16,11 @@ const Footer = () => {
     <div className="footer">
       <div className="footer-container">
         <div className="left">
-          <div className="details">
+          <div className="location">
             <FaHome size={20} style={{ color: "white", marginRight: "2rem" }} />
             <div>
-              <p> 60 Frederick St. </p>
-              <p> Kitchener, ON, N2H0C7</p>
+              <p>60 Frederick St. </p>
+              <p>Kitchener, ON, N2H0C7</p>
             </div>
           </div>
           <div className="details">

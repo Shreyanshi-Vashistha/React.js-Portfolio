@@ -10,11 +10,11 @@ const ProjectCards = (props) => {
       <h2 className="title">{props.title}</h2>
       <div className="details">
         <p>{props.desc}</p>
-        <div className="pro-btns">
-          <NavLink to={props.link} className="btn" target="_blank">
-            View
-          </NavLink>
-        </div>
+      </div>
+      <div className="pro-btns">
+        <NavLink to={props.link} className="btn" target="_blank">
+          View
+        </NavLink>
       </div>
     </div>
   );
