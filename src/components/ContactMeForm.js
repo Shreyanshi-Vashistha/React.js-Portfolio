@@ -7,27 +7,15 @@ const FORM_ENDPOINT =
 
 const ContactMeForm = () => {
   const [submitted, setSubmitted] = useState(false);
-  const handleSubmit = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
     setTimeout(() => {
       setSubmitted(true);
     }, 100);
   };
-  if (submitted) {
-    return (
-      <>
-        <div>Thank you!</div>
-        <div>We'll be in touch soon.</div>
-      </>
-    );
-  }
   return (
     <div className="form">
-      <form
-        action={FORM_ENDPOINT}
-        onSubmit={handleSubmit}
-        method="POST"
-        // target="_blank"
-      >
+      <form action={FORM_ENDPOINT} onSubmit={handleSubmit} method="POST">
         <label>Name</label>
         <input type="text" placeholder="Your name" name="name" required />
         <label>Email</label>
@@ -38,6 +26,15 @@ const ContactMeForm = () => {
         <button className="btn" type="submit">
           Send a Message
         </button>
+        {submitted ? (
+          <div>
+            <p>
+              <marquee>Thanks for reaching out. I'll be in touch soon.</marquee>
+            </p>
+          </div>
+        ) : (
+          <div></div>
+        )}
       </form>
     </div>
   );

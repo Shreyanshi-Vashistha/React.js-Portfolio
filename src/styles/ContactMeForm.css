@@ -14,9 +14,10 @@ form {
 form input,
 form textarea {
   margin-bottom: 1rem;
-  padding: 10ox 18px;
+  padding: 8px 8px;
   font-size: 1.2rem;
   background-color: rgba(255, 255, 255, 0.1);
   border-color: rgba(255, 255, 255, 0.1);
   color: #f4f4f4;
+  border-radius: 8px;
 }

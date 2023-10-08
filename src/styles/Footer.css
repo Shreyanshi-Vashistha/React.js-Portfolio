@@ -21,13 +21,9 @@
   padding: 1rem;
 }
 
-.location {
+.details {
   display: flex;
   margin-bottom: 0.8rem;
-}
-
-.location p {
-  line-height: 30px;
 }
 
 .right {
@@ -51,5 +47,8 @@ p {
 @media screen and (max-width: 640px) {
   .footer-container {
     grid-template-columns: 1fr;
+  }
+  .email {
+    font-size: small;
   }
 }

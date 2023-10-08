@@ -16,30 +16,30 @@ const Footer = () => {
     <div className="footer">
       <div className="footer-container">
         <div className="left">
-          <div className="location">
+          <div className="details">
             <FaHome size={20} style={{ color: "white", marginRight: "2rem" }} />
             <div>
               <p> 60 Frederick St. </p>
               <p> Kitchener, ON, N2H0C7</p>
             </div>
           </div>
-          <div className="phone">
-            <h4>
-              <FaPhone
-                size={20}
-                style={{ color: "white", marginRight: "2rem" }}
-              />
-              +1(519)830-7680
-            </h4>
+          <div className="details">
+            <FaPhone
+              size={20}
+              style={{ color: "white", marginRight: "2rem" }}
+            />
+            <div>
+              <p>+1(519)830-7680</p>
+            </div>
           </div>
-          <div className="email">
-            <h4>
-              <FaMailBulk
-                size={20}
-                style={{ color: "white", marginRight: "2rem" }}
-              />
-              shreyanshi.vashistha97@gmail.com
-            </h4>
+          <div className="details">
+            <FaMailBulk
+              size={20}
+              style={{ color: "white", marginRight: "2rem" }}
+            />
+            <div>
+              <p className="email">shreyanshi.vashistha97@gmail.com</p>
+            </div>
           </div>
           <div className="social">
             <Link
