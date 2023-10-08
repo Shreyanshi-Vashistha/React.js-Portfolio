@@ -28,9 +28,7 @@ const ContactMeForm = () => {
         </button>
         {submitted ? (
           <div>
-            <p>
-              <marquee>Thanks for reaching out. I'll be in touch soon.</marquee>
-            </p>
+            <p>Thanks for reaching out. I'll be in touch soon.</p>
           </div>
         ) : (
           <div></div>
