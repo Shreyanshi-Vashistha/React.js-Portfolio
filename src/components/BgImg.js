@@ -4,23 +4,37 @@ import MainImg from "../assets/bgimg.jpg";
 import React from "react";
 import { Link } from "react-router-dom";
 import SV_Resume from "../assets/Shreyanshi_Vashistha_Resume.pdf";
+import Typewriter from "./Typewriter";
 
 const BgImg = () => {
+  // const text = ["Hey! I'm a Full-Stack", "Web Developer"];
   return (
     <div className="bg">
       <div className="mask">
         <img className="mainImg" src={MainImg} alt="background" />
       </div>
       <div className="content">
-        <p>Hey! I'm a Full Stack</p>
-        <h1>Web Developer</h1>
+        {/* {text.map((i) => {
+          return (
+            <h1>
+              <Typewriter text={i} delay={100} />
+            </h1>
+          );
+        })} */}
+
+        <p>
+          <Typewriter text="Hey! I'm a Full Stack" delay={100} />
+        </p>
+        <h1>
+          <Typewriter text="Web Developer" delay={200} />
+        </h1>
         <div>
           <Link to="/projects" className="btn">
             PROJECTS
           </Link>
 
           <a href={SV_Resume} download="resume.pdf" className="btn-light">
-            Resume
+            RESUME
           </a>
         </div>
       </div>
