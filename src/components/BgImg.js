@@ -14,14 +14,6 @@ const BgImg = () => {
         <img className="mainImg" src={MainImg} alt="background" />
       </div>
       <div className="content">
-        {/* {text.map((i) => {
-          return (
-            <h1>
-              <Typewriter text={i} delay={100} />
-            </h1>
-          );
-        })} */}
-
         <p>
           <Typewriter text="Hey! I'm a Full Stack" delay={100} />
         </p>
