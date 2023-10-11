@@ -1,6 +1,6 @@
 import proj1 from "../assets/homeWise.png";
-import proj2 from "../assets/homeWise.png";
-import proj3 from "../assets/homeWise.png";
+// import proj2 from "../assets/homeWise.png";
+// import proj3 from "../assets/homeWise.png";
 
 const ProjectData = [
   {
