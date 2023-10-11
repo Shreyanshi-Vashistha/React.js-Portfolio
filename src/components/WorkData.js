@@ -9,18 +9,18 @@ const ProjectData = [
     desc: "A realtor website",
     link: "https://witty-cliff-0d035a710.3.azurestaticapps.net/",
   },
-  {
-    imageSrc: proj2,
-    title: "Second Project",
-    desc: "Project desc",
-    link: "url",
-  },
-  {
-    imageSrc: proj3,
-    title: "Third Project",
-    desc: "Project desc",
-    link: "url",
-  },
+  // {
+  //   imageSrc: proj2,
+  //   title: "Second Project",
+  //   desc: "Project desc",
+  //   link: "url",
+  // },
+  // {
+  //   imageSrc: proj3,
+  //   title: "Third Project",
+  //   desc: "Project desc",
+  //   link: "url",
+  // },
 ];
 
 export default ProjectData;
